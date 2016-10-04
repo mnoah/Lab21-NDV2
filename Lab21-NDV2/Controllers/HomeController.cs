@@ -15,7 +15,7 @@ namespace Lab21_NDV2.Controllers
             if (ModelState.IsValid)
             {
                 //TODO: Email response to party organizer
-                return View("thanks", guestResponse);
+                return View("ThanksForm", guestResponse);
             }
             else
             {

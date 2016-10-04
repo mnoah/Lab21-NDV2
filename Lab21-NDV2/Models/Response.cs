@@ -23,8 +23,7 @@ namespace Lab21_NDV2.Models
         [Required(ErrorMessage = "Please specify your gender")]
         public string Gender { get; set; }
 
-        //[Required(ErrorMessage = "Please specify whether you'll attend")]
-        //public string Phone { get; set; }
+     
 
         [Required(ErrorMessage = "Please specify whether you'll attend")]
         public bool Pet { get; set; }
